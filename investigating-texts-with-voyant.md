@@ -1,16 +1,20 @@
 # Investigating texts with Voyant
 
-Voyant is a web-based tool for text analysis that is designed to combine ease of use with a sophisticated array of visualization methods. My general classroom experience has been that students are intrigued by it, but pretty skeptical of how much Voyant can actually tell them about a text. That's good, I think! I like to use Voyant to probe how texts come to be meaningful. If word frequencies aren't sufficient, how *do* we find patterns in texts? Is close reading possible with a very large corpus of texts? If we can't hold all those texts in our heads, then what *would* help us find patterns in texts? Is the answer some tool that hasn't been invented yet? Or is the entire experiment doomed to failure? 
+Voyant is a web-based tool for text analysis that is designed to combine ease of use with a sophisticated array of visualization methods. You may find yourself intrigued by the possibilities, while still skeptical about how much Voyant can really tell you about a text. That's a good place from which to begin, as Voyant is often most useful as a means of conducting some initial exploration in order to develop more sophisticated research questions. Voyant might let you see some things you expect, and others you don't, in ways that can let you begin to think about how the texts with which you're working create their meanings.
 
-I find these questions especially useful in opening discussion between students who have experience studying literature and students from other fields, since they often expose some different assumptions about how we can divine the "truth" about texts. I hardly need mention that I wouldn't suggest to students that Voyant (or text analysis in general) offers a straightforward window into a text. Instead, I prefer to use it as a way to talk about how we interact with texts and what kind of meaning evades capture by computational tools.
+This tutorial is forked from a workshop originally developed by [Miriam Posner](https://miriamposner.com), who has developed a ton of [tutorials and workshops that she's made available on GitHub](https://github.com/miriamposner). I'm grateful for her generosity, and for GitHub's easy forking capabilities, which make building on the work of others possible.
 
-I wouldn't, of course, front-load an exploration of Voyant with all of this baggage. Instead, I'd ask students to investigate texts with it (as I demonstrate below) and then, in discussions afterward, prompt them to consider some of these questions — and add their own!
+As Miriam notes in the introduction to her workshop, she usually asks her students to explore Voyant first, and then opens a discussion with them about the questions that surface from their exploration. Since we're doing all this remotely and asynchronously, I'm going to frontload a few questions here, so that you can keep them in mind as you work. They might provide a good starting point for you blog posts.
 
-Now that we've dispensed with that preface, I'll explain that in order to visualize texts with Voyant, you'll first need to get documents into it and next (the more complicated part) try to make sense of the visualizations Voyant produces.
+- What, if anything, can we learn about a text from its word frequencies? If word frequencies aren't sufficient, how *do* we find patterns in texts?
+- Is close reading possible with a very large corpus of texts? If we can't hold all those texts in our heads, then what *would* help us find patterns in texts? Is the answer some tool that hasn't been invented yet? Or is the entire experiment doomed to failure?
+- What, in other words, can computational text analysis show us, and what requires another analytical mode?
 
-## 1. Download our corpus
+In order to visualize texts with Voyant, you'll first need to get documents into it and then try to make sense of the visualizations Voyant produces.
 
-I'd like you to begin by downloading a couple of files. One contains a corpus of nineteenth-century children's books; the second is simply a list of the books contained in the corpus.
+## 1. Download the corpus
+
+Miriam has made available a corpus of nineteenth-century children's books, contained in the first Dropbox link; the second link will lead you to a list of the books contained in the corpus.
 
 Point your browser to [https://www.dropbox.com/s/f7z1i8hg9pzg9wk/American.zip?dl=1.](https://www.dropbox.com/s/f7z1i8hg9pzg9wk/American.zip?dl=0) A download of a zip file should begin immediately. Once the zip file downloads, figure out where it went (and try to remember that for later!) and then double-click it to decompress the file. You should end up with a file called **American** that contains 33 text files.
 
@@ -22,7 +26,7 @@ Next, go to [https://www.dropbox.com/s/4sug61lqvfw3673/American.xlsx?dl=1](https
 
 ## 2. Open Voyant
 
-Go to [https://voyant-tools.org/](https://voyant-tools.org/) to begin. I recommend opening Voyant in one browser window and keeping this tutorial open in a second. Arrange the two windows so that you can see them both at the same time. Once you've done that, you've mastered the hardest part of this tutorial!
+Go to [https://voyant-tools.org/](https://voyant-tools.org/) to begin. I recommend opening Voyant in one browser window and keeping this tutorial open in a second. Arrange the two windows so that you can see them both at the same time. 
 
 Here, I'll pause to say a word or two about how to get texts in to Voyant. As the help text indicates, you can simply paste text into the window, or enter URLs (for example, to Project Gutenberg texts). If you click on the **Open** button, you'll see that Voyant offers a couple of corpora for demonstration purposes. Finally, you can **Upload** texts from your own computer. That's what we'll do in the next step.
 
